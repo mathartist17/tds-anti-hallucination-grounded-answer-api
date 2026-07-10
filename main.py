@@ -79,7 +79,7 @@ def health():
     return {"status": "ok"}
 
 
-@app.post("/grounded-qa")
+@app.post("/grounded-answer")
 async def grounded_qa(request: Request):
     # Step 1: Validate input
     try:
